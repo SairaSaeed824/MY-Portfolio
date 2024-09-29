@@ -1,0 +1,79 @@
+body {
+    background-color: white;
+    #first {
+        Color: blue;
+    }
+    #secondly {
+        Color: green;
+    }
+    p {
+        Color: brown;
+    }
+    a {
+        Color: red;
+    }
+    p,
+    a {
+        color: red;
+    }
+    li {
+        list-style-type: none;
+    }
+    .special {
+        font-weight: bold;
+    }
+    p sub {
+        color: white;
+    }
+    ul+li {
+        font-size: red;
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    body h1+p .special {}
+    p#first {
+        color: aliceblue;
+    }
+    li[class~="first"] {
+        color: red;
+    }
+}
+
+.special {
+    background-image: url("E:/laptop.jpeg");
+    background-repeat: repeat-x;
+    background-position: center;
+    background-attachment: scroll;
+    font-size: 40px;
+    font-style: italic;
+    font-family: 'Pacifico', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-decoration: overline;
+    text-transformx: uppercase;
+    text-indent: -30em;
+    letter-spacing: 1rem;
+    word-spacing: -.4ch;
+    text-shadow: 1px 1px 1px black;
+    border: 1px solid #000;
+    z-index: 1;
+    position: =absolute;
+}
+
+input[type="submit"] {
+    cursor: pointer;
+}
+
+input[type="submit"] :hover {
+    background-color: aqua;
+}
+
+.clip-circle {
+    clip-path: circle(46.1% at 50% 50%);
+}
+
+@media screen and (max-width: 600px) and (orientation: landscape) {
+    body {
+        color: blue;
+    }
+}
